@@ -34,3 +34,25 @@ Terminado todo el proceso veremos en el escritorio (lo he elegido paara la demos
 
 ## GuyImager
 
+Para usar esta herramienta, hemos elegido el SO CAINE, usado para el ámbito de la forensia digital. Lo primero que haremos será elegir nuestro dispositivo USB y elegir la opción ***Acquire Image***, y luego optaremos por una imagen de formato .dd. Finalmente sólo tendremos que elegir una ubicación y darle un nombre a la imagen que adquiriremos.
+
+![GuyMager1](img/GuyMager1.png)
+
+![GuyMager2](img/GuyMager2.png)
+
+![GuyMager3](img/GuyMager3.png)
+
+Cuando termine la operación, podremos acceder a la información generada tanto en la carpeta donde se ha creado la imagen o haciendo clic en la opción ***Info***
+
+![GuyMager4](img/GuyMager4.png)
+
+![GuyMager5](img/GuyMager5.png)
+
+![GuyMager6](img/GuyMager6.png)
+
+Como podemos ver, ya tenemos nuestra imagen forense en formato .dd de la memoria USB original
+
+<br/>
+
+## Comando dd
+
