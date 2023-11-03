@@ -56,3 +56,12 @@ Como podemos ver, ya tenemos nuestra imagen forense en formato .dd de la memoria
 
 ## Comando dd
 
+Finalmente haremos uso del comando ***dd*** de los sistemas Linux para realizar una copia bit a bit de un dispositivo de almacenamiento. Este comando crea una imgen del dispositivo o disco original. Para mayor comodidad, hemos vuelto a elegir el formato .dd. También indicamos la ubicación de la imagen a crear, el tamaño del bloque de lectura/escritura, que será de 512 bytes, y las opciones ***noerror***, que indica que se continúe copiando incluso si se encuentran errores de lectura en el dispositivo de origen (USB) y ***sync***, que rellena los bloques de salida con ceros si no se pueden leer suficientes datos desde el dispositivo a copiar.
+
+![dd1](img/dd1.png)
+
+Una vez que se termina la operación, podremos ver cierta información de la copia como el tamaño y la velocidad, así como el archivo .dd en la carpeta de destino.
+
+![dd2](img/dd2.png)
+
+![dd3](img/dd3.png)
